@@ -1,0 +1,189 @@
+.dashboard-page-container {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+
+  .top-cards-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: Arial;
+  }
+
+  .card-container {
+    width: 300px;
+    height: 80px;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    font-weight: 500;
+    flex-direction: column;
+    margin-left: 15px;
+
+    &.blue {
+      box-shadow: 8px 8px rgba($color: #031c4a, $alpha: 2);
+    }
+
+    &.red {
+      box-shadow: 8px 8px rgba($color: red, $alpha: 2);
+    }
+
+    &.green {
+      box-shadow: 8px 8px rgba($color: green, $alpha: 2);
+    }
+
+    &.orange {
+      box-shadow: 8px 8px rgba($color: orange, $alpha: 2);
+    }
+
+    .tree-1 {
+      fill: #031c4a;
+    }
+    .tree-2 {
+      fill: red;
+    }
+    .tree-3 {
+      fill: green;
+    }
+    .tree-4 {
+      fill: orange;
+    }
+  }
+
+  .bottom-cards-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px;
+    margin-bottom: 20px;
+    font-family: Arial;
+  }
+
+  .big-card {
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 0 10px;
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    border-radius: 8px;
+    text-align: justify;
+    margin-top: 40px;
+    flex-direction: row;
+    margin-left: 15px;
+  }
+  .card {
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+
+  .projects-small-cards {
+    overflow-y: auto;
+    height: 440px;
+  }
+
+  .project-container {
+    margin: 0;
+    margin-left: 10px;
+  }
+
+  .projects {
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: -10px;
+  }
+
+  .description {
+    font-size: 15px;
+    color: gray;
+    margin-left: 50px;
+  }
+
+  .date {
+    font-size: 15px;
+    margin-left: 50px;
+    color: rgb(234, 116, 193);
+    margin-top: 15px;
+    width: 100px;
+  }
+
+  .date:hover {
+    background-color: rgb(236, 232, 232);
+  }
+
+  .icon-container {
+    margin-right: 10px;
+  }
+
+  .icons {
+    position: relative;
+    top: 40px;
+    left: 7px;
+    width: 40px;
+    height: 40px;
+    margin-top: -5px;
+  }
+
+  .job {
+    font-size: 15px;
+    text-align: center;
+    color: rgb(234, 116, 193);
+  }
+  .job:hover {
+    background-color: rgb(236, 232, 232);
+  }
+
+  .person-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+  }
+
+  .person-icon-container {
+    margin-left: 15px;
+    height: 40px;
+    width: 40px;
+  }
+
+  .person-details-container {
+    margin-left: 15px;
+  }
+
+  .person-name {
+    font-size: 20px;
+  }
+
+  .person-job {
+    font-size: 15px;
+    color: rgb(234, 116, 193);
+    text-align: center;
+    width: 30px;
+  }
+
+  .person-job:hover {
+    background-color: rgb(236, 232, 232);
+  }
+
+  .person-icon {
+    height: 40px;
+    width: 40px;
+  }
+  .separator {
+    height: 2px;
+    width: 100%;
+    background-color: lightgray;
+    margin-top: 10px;
+  }
+
+  .separators {
+    height: 2px;
+    width: 100%;
+    background-color: lightgray;
+    margin-bottom: 0;
+    margin-top: 8px;
+  }
+}

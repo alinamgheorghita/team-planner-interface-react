@@ -1,0 +1,41 @@
+.person-card {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0 10px;
+  width: 300px;
+  height: 60px;
+  background-color: white;
+  border-radius: 8px;
+  text-align: justify;
+  margin-bottom: 20px;
+  flex-direction: row;
+  margin-right: 30px;
+  display: flex;
+  padding: 20px;
+  cursor: pointer;
+
+  .user-icon-container {
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+  }
+
+  .user-icon {
+    height: 40px;
+    width: 40px;
+  }
+
+  .person-available-container {
+    margin-right: 30px;
+  }
+
+  .person-name {
+    font-size: 20px;
+    margin-right: 20px;
+  }
+
+  .person-job {
+    font-size: 15px;
+    color: magenta;
+  }
+}

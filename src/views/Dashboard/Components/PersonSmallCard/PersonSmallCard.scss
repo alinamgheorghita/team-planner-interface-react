@@ -1,0 +1,52 @@
+.person-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+
+  .person-icon-container {
+    margin-left: 15px;
+    height: 40px;
+    width: 40px;
+  }
+
+  .person-details-container {
+    margin-left: 15px;
+  }
+
+  .person-first-name {
+    font-size: 20px;
+  }
+  .person-last-name {
+    font-size: 20px;
+  }
+
+  .person-job {
+    font-size: 15px;
+    color: rgb(234, 116, 193);
+    text-align: center;
+    width: 30px;
+  }
+
+  .person-job:hover {
+    background-color: rgb(236, 232, 232);
+  }
+
+  .person-icon {
+    height: 40px;
+    width: 40px;
+  }
+  .separator {
+    height: 2px;
+    width: 100%;
+    background-color: lightgray;
+    margin-top: 10px;
+  }
+
+  .separators {
+    height: 2px;
+    width: 100%;
+    background-color: lightgray;
+    margin-bottom: 0;
+    margin-top: 8px;
+  }
+}
